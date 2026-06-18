@@ -1,0 +1,82 @@
+.project-section {
+    min-height: 100vh;
+    padding: 50px 10%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.project-section h2 {
+    margin-bottom: 50px;
+    font-size: 3rem;
+}
+
+.project-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+
+.card {
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 15px rgba(139, 92, 246, 0.15);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-12px) scale(1.04);
+    box-shadow: 0 15px 20px rgb(196, 181, 253);
+    cursor: pointer;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.5;
+}
+
+.tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.tag {
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border: none;
+    cursor: default;
+}
+
+.tag-tech {
+    background-color: rgba(139, 92, 246, 0.2);
+    color: rgb(196, 181, 253);
+    border: 1px solid rgba(139, 92, 246, 0.4);
+}
+
+.tag-level {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.card i {
+    font-size: 2rem;
+    margin-top: 10px;
+}

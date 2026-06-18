@@ -1,6 +1,7 @@
 .connect-section {
     min-height: 100vh;
-    padding: 80px 5%;
+    padding: 80px 10%;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,17 +9,66 @@
 
 .connect-section h3 {
     font-size: 4rem;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+.connect p {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .connect {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .contacts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.contact-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 25px;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(139, 92, 246, 0.15);
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 15px 20px rgb(196, 181, 253);
+    border-color: rgba(139, 92, 246, 0.5);
+}
+
+.contact-card i {
+    font-size: 2rem;
+    min-width: 40px;
+    text-align: center;
+}
+
+.contact-card div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 40px;
-    align-items:flex-start;
+    gap: 4px;
+}
+
+.contact-label {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.contact-display {
+    font-size: 0.95rem;
+    color: rgb(196, 181, 253);
+    font-weight: 500;
 }

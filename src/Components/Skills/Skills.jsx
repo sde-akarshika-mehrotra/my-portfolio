@@ -8,7 +8,7 @@ function Skills() {
                 <h2>Skills and Technologies</h2>
 
                 <div className="skills-container">
-                    <div className="cards-className">
+                    <div className="cards-class">
                         <h3>Languages</h3>
 
                         <div className="icons">
@@ -48,7 +48,7 @@ function Skills() {
                         </ul>
                     </div>
 
-                    <div className="cards-className">
+                    <div className="cards-class">
                         <h3>Tools</h3>
 
                         <div className="icons">
