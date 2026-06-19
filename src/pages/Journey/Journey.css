@@ -1,9 +1,9 @@
 .journey-section {
-    min-height: 100vh;
+    min-height: auto;
     padding: 80px 5%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .journey-section h2 {
