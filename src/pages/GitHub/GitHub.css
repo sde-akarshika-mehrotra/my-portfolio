@@ -9,7 +9,7 @@
 
 .github-section h2 {
     font-size: 3rem;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .github-container {
@@ -17,17 +17,22 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     width: 100%;
+    align-items: center;
 }
 
 .github-container img {
     width: 100%;
     border-radius: 15px;
     border: 2px solid rgba(255, 255, 255, 0.15);
-    box-shadow: 0 0 15px rgba(139, 92, 246, 0.15);
     transition: all 0.3s ease;
 }
 
-.github-container img:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 15px 20px rgb(196, 181, 253);
+.contrib-graph {
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    margin-top: 5px;
+    grid-column: 1 / -1;
+    max-height: 300px;        
+    object-fit: cover; 
 }
