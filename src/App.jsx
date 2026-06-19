@@ -24,7 +24,7 @@ function App() {
             <Route path="/project" element={<Project />} />
             <Route path="/journey" element={<Journey />} />
             <Route path="/github" element={<GitHub />} />
-            <Route path="/connect" element={<Connnect />} />
+            <Route path="/connect" element={<Connect />} />
           </Routes>
 
 
