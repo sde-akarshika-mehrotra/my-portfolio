@@ -70,6 +70,39 @@
 .right-section img {
     width: 100%;
     max-width: 450px;
-    height: auto;
+    height: 550px;
     object-fit: contain;
+}
+
+.buttons a {
+    text-decoration: none;
+}
+
+@media(max-width:900px) {
+
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+
+    .hero-section>div {
+        width: 100%;
+    }
+
+
+
+    .left-section .buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+
+    .right-section img {
+        max-width: 350px;
+    }
+
+
 }

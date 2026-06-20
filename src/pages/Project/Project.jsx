@@ -17,7 +17,9 @@ function Project() {
                             <span className="tag tag-tech">C</span>
                             <span className="tag tag-level">Beginner</span>
                         </div>
-                        <i className="devicon-github-original"></i>
+                        <a href="https://github.com/sde-akarshika-mehrotra/C_QuizGame" target="_blank">
+                            <i className="devicon-github-original"></i>
+                        </a>
                     </div>
 
                     <div className="card">
@@ -29,7 +31,9 @@ function Project() {
                             <span className="tag tag-tech">REACTJS</span>
                             <span className="tag tag-level">Beginner</span>
                         </div>
-                        <i className="devicon-github-original"></i>
+                        <a href="https://github.com/sde-akarshika-mehrotra/E-commerce" target="_blank">
+                            <i className="devicon-github-original"></i>
+                        </a>
                     </div>
 
                     <div className="card">
@@ -41,7 +45,12 @@ function Project() {
                             <span className="tag tag-tech">REACTJS</span>
                             <span className="tag tag-level">Intermediate</span>
                         </div>
-                        <i className="devicon-github-original"></i>
+
+                        <div className="project-links">
+                            <a href="https://github.com/sde-akarshika-mehrotra/my-portfolio" target="_blank">
+                                <i className="devicon-github-original"></i>
+                            </a>
+                        </div>
                     </div>
 
 
@@ -57,7 +66,19 @@ function Project() {
                             <span className="tag tag-tech">MONGODB</span>
                             <span className="tag tag-level">Intermediate</span>
                         </div>
-                        <i className="devicon-github-original"></i>
+
+                        <div className="project-links">
+                            <a href="https://github.com/sde-akarshika-mehrotra/Smart-Job-Tracker" target="_blank">
+                                <i className="devicon-github-original"></i>
+                            </a>
+                            <a
+                                href="https://smart-job-tracker-sable.vercel.app"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
 

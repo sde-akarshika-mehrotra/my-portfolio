@@ -7,6 +7,8 @@ import Project from './pages/Project/Project'
 import Journey from './pages/Journey/Journey'
 import GitHub from './pages/GitHub/GitHub'
 import Connect from './pages/Connect/Connect'
+import Story from './pages/Story/Story'
+import Footer from './pages/Footer/Footer'
 
 
 function App() {
@@ -52,6 +54,13 @@ function App() {
           <Connect />
         </section>
 
+        <section id="story">
+          <Story />
+        </section>
+
+        <section id="footer">
+          <Footer />
+        </section>
 
       </main>
 

@@ -10,7 +10,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 60px;
-    align-items: center;
+    align-items: start;
+}
+
+.left-connect {
+    padding-top: 20px;
 }
 
 .left-connect h3 {
@@ -26,6 +30,7 @@
 
 
 .contacts {
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
